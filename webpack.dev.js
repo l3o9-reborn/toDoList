@@ -24,7 +24,7 @@ module.exports=merge(common,{
     },
     devServer: {
         static: path.resolve(__dirname, 'dist'),
-        port: 3000, // Optional: Specify a port
+        port: 3001, // Optional: Specify a port
         open: true, // Automatically open the browser
         hot: true,  // Enable Hot Module Replacement (HMR)
     }
